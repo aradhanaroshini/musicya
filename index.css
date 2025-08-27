@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Playfair-Display;
+    src:url(fonts/fonts/FlorasDisplay-DisplayOne.ttf-DisplayOne.ttf);
+}
+*{
+    font-family: Playfair-Display,serif;
+    font-style: italic;
+    font-size: 17px;
+    
+    
+
+}
+body{
+    height:100vh;
+    background-image: url(pics/aura\ pink\ mac\ wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav,
+.navlinks{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlinks{
+    column-gap: 25px;
+    align-items: center;
+}
+.navlinks:hover{
+    color: azure;
+
+}
+.marc{
+    background-color: beige;
+    font-size: bold;
+    color: blueviolet;
+    width:100%;
+    font-size: 10px;
+}
+.mainlogo{
+    font-size: 50px;
+    font-style: italic;
+}
+.loginbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    height: max-content;
+    max-width: max-content;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.login1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.login2{
+    font-weight: bold;
+}
+.login3{
+    background-color: transparent;
+    border: None;
+    border-bottom: 1px solid;
+    
+}
+.login3::placeholder{
+    text-align: center;
+}
+.noacc{
+    text-decoration:underline dashed black;
+    cursor: pointer;
+}
+.song{
+    border: none;
+    background-color: pink;
+}
